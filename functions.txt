@@ -1,0 +1,28 @@
+.py functions:
+1)  to loop over dictionary:
+eg:-	d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+		for key,value in d.items():
+			# Your code here!
+			print key,value
+
+enumerate(list) gives indexes
+
+eg:- choices = ['pizza', 'pasta', 'salad', 'nachos']
+
+print 'Your choices are:'
+for index, item in enumerate(choices):
+  print index+1, item
+  
+ to iterate on two lists simultaneously use zip(list1,list2)
+ eg:- for a,b in zip(list_a,list_b):
+		print a,b
+		
+floor division a//b = floor(a/b)
+
+to split a strng into words use str.split()
+.join() to make a string again
+
+
+to print a num in binary use bin() for hexa us hex() and octal oct()
+
